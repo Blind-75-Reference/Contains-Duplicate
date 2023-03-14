@@ -8,7 +8,7 @@ public class Solution {
     with no duplicates, we return false.
 
     This adds the complexity of sorting the array, but makes the rest of the solution far more efficient than the
-    brute force solution. 
+    brute force solution.
      */
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
